@@ -7,7 +7,7 @@
 # Project 1: Image Filtering and Hybrid Images
 
 ## Brief
-* Due: Oct. 14
+* Due: Oct. 19
 * Required files: results/index.md, and code/
 
 ##Overview
