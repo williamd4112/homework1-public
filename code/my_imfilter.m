@@ -33,8 +33,6 @@ function output = my_imfilter(f, h)
 %%%%%%%%%%%%%%%%
 % Your code here
 %%%%%%%%%%%%%%%%
-% output = imfilter(image, filter);
-
 % rotate 180 degree
 h = flipud(fliplr(h));
 % flatten filter
@@ -47,7 +45,7 @@ for c = 1 : size(f, 3)
 end
 % multiply
 for c = 1 : size(f, 3)
-    output(:,:,c) = uint8((h_) * double(f_pad_(:,:,c)));
+    output(:,:,c) = single((h_) * single(f_pad_(:,:,c)));
 end
 output = reshape(output, size(f));
 
