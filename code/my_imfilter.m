@@ -1,4 +1,4 @@
-function output = my_imfilter(image, filter)
+function output = my_imfilter(f, h)
 % This function is intended to behave like the built in function imfilter()
 % See 'help imfilter' or 'help conv2'. While terms like "filtering" and
 % "convolution" might be used interchangeably, and they are indeed nearly
@@ -33,8 +33,23 @@ function output = my_imfilter(image, filter)
 %%%%%%%%%%%%%%%%
 % Your code here
 %%%%%%%%%%%%%%%%
+% output = imfilter(image, filter);
 
-
+% rotate 180 degree
+h = flipud(fliplr(h));
+% flatten filter
+h_ = reshape(h, [1 size(h, 1) * size(h, 2)]);
+% padding 
+f_pad = padarray(f, [floor(size(h, 1)/2) floor(size(h, 2)/2)]);
+% flatten f
+for c = 1 : size(f, 3)
+    f_pad_(:,:,c) = im2col(f_pad(:,:,c), size(h), 'sliding');
+end
+% multiply
+for c = 1 : size(f, 3)
+    output(:,:,c) = uint8((h_) * double(f_pad_(:,:,c)));
+end
+output = reshape(output, size(f));
 
 
 
