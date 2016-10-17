@@ -51,23 +51,21 @@ This project's goal is to write an image filter processing function in Matlab to
 	- execute 'proj1' in '**code**' directory
 
 ### Results
-
+### proj1_test_filtering
 <table border=1>
 <tr>
 <td>
-<img src="placeholder.jpg" width="24%"/>
-<img src="placeholder.jpg"  width="24%"/>
-<img src="placeholder.jpg" width="24%"/>
-<img src="placeholder.jpg" width="24%"/>
+<img src="2.png" width="24%"/>
+<img src="3.png" width="24%"/>
+<img src="4.png" width="24%"/>
+<img src="5.png" width="24%"/>
 </td>
 </tr>
 
 <tr>
 <td>
-<img src="placeholder.jpg" width="24%"/>
-<img src="placeholder.jpg"  width="24%"/>
-<img src="placeholder.jpg" width="24%"/>
-<img src="placeholder.jpg" width="24%"/>
+<img src="6.png" width="24%"/>
+<img src="7.png" width="24%"/>
 </td>
 </tr>
 
