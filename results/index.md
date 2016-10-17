@@ -70,3 +70,59 @@ This project's goal is to write an image filter processing function in Matlab to
 </tr>
 
 </table>
+
+### Hybrid image
+#### dog (low, cutoff = 3), cat (high, cutoff = 3)
+<table border=1>
+<tr>
+<td>
+<img src="dog_low_3.png" width="30%"/>
+<img src="cat_high_3.png" width="30%"/>
+<img src="dog_cat_3.png" width="30%"/>
+</td>
+</tr>
+</table>
+
+#### dog (low, cutoff = 5), cat (high, cutoff = 5)
+<table border=1>
+<tr>
+<td>
+<img src="dog_low_5.png" width="30%"/>
+<img src="cat_high_5.png" width="30%"/>
+<img src="dog_cat_5.png" width="30%"/>
+</td>
+</tr>
+</table>
+
+#### dog (low, cutoff = 7), cat (high, cutoff = 7)
+<table border=1>
+<tr>
+<td>
+<img src="dog_low_7.png" width="30%"/>
+<img src="cat_high_7.png" width="30%"/>
+<img src="dog_cat_7.png" width="30%"/>
+</td>
+</tr>
+</table>
+
+#### dog (low, cutoff = 9), cat (high, cutoff = 9)
+<table border=1>
+<tr>
+<td>
+<img src="dog_low_9.png" width="30%"/>
+<img src="cat_high_9.png" width="30%"/>
+<img src="dog_cat_9.png" width="30%"/>
+</td>
+</tr>
+</table>
+
+#### dog (low, cutoff = 11), cat (high, cutoff = 11)
+<table border=1>
+<tr>
+<td>
+<img src="dog_low_11.png" width="30%"/>
+<img src="cat_high_11.png" width="30%"/>
+<img src="dog_cat_11.png" width="30%"/>
+</td>
+</tr>
+</table>
