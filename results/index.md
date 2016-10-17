@@ -146,4 +146,21 @@ This project's goal is to write an image filter processing function in Matlab to
 <img src="plane_bird_7.jpg" width="30%"/>
 </td>
 </tr>
+</table>  
+#### Other case
+<table border=1>
+<tr>
+<td>
+<img src="moto_low_7.jpg" width="30%"/>
+<img src="bike_high_7.jpg" width="30%"/>
+<img src="moto_bike_7.jpg" width="30%"/>
+</td>
+</tr>
+<tr>
+<td>
+<img src="marine_low_7.jpg" width="30%"/>
+<img src="fish_high_7.jpg" width="30%"/>
+<img src="marine_fish_7.jpg" width="30%"/>
+</td>
+</tr>
 </table>
