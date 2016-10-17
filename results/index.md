@@ -69,10 +69,11 @@ This project's goal is to write an image filter processing function in Matlab to
 </td>
 </tr>
 
-</table>
+</table>  
 
 ### Hybrid image
-#### dog (low, cutoff = 3), cat (high, cutoff = 3)
+#### Cutoff frequency experiment
+##### dog (low, cutoff = 3), cat (high, cutoff = 3)
 <table border=1>
 <tr>
 <td>
@@ -83,7 +84,7 @@ This project's goal is to write an image filter processing function in Matlab to
 </tr>
 </table>
 
-#### dog (low, cutoff = 5), cat (high, cutoff = 5)
+##### dog (low, cutoff = 5), cat (high, cutoff = 5)
 <table border=1>
 <tr>
 <td>
@@ -94,7 +95,7 @@ This project's goal is to write an image filter processing function in Matlab to
 </tr>
 </table>
 
-#### dog (low, cutoff = 7), cat (high, cutoff = 7)
+##### dog (low, cutoff = 7), cat (high, cutoff = 7)
 <table border=1>
 <tr>
 <td>
@@ -105,7 +106,7 @@ This project's goal is to write an image filter processing function in Matlab to
 </tr>
 </table>
 
-#### dog (low, cutoff = 9), cat (high, cutoff = 9)
+##### dog (low, cutoff = 9), cat (high, cutoff = 9)
 <table border=1>
 <tr>
 <td>
@@ -116,7 +117,7 @@ This project's goal is to write an image filter processing function in Matlab to
 </tr>
 </table>
 
-#### dog (low, cutoff = 11), cat (high, cutoff = 11)
+##### dog (low, cutoff = 11), cat (high, cutoff = 11)
 <table border=1>
 <tr>
 <td>
