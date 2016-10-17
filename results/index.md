@@ -126,4 +126,24 @@ This project's goal is to write an image filter processing function in Matlab to
 <img src="dog_cat_11.png" width="30%"/>
 </td>
 </tr>
+</table>  
+
+#### Switch low/high frequency image
+<table border=1>
+<tr>
+<td>
+<img src="bird_low_7.jpg" width="30%"/>
+<img src="plane_high_7.jpg" width="30%"/>
+<img src="bird_plane_7.jpg" width="30%"/>
+</td>
+</tr>
+</table>
+<table border=1>
+<tr>
+<td>
+<img src="plane_low_7.jpg" width="30%"/>
+<img src="bird_high_7.jpg" width="30%"/>
+<img src="plane_bird_7.jpg" width="30%"/>
+</td>
+</tr>
 </table>
